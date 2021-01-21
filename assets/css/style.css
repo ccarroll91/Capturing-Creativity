@@ -3,13 +3,14 @@
 /*------------------------------------------colours */
 .bg-color-cc-page {
     background-color: #c5520f;
+    float: left;
 }
 
 /*------------------------------------------special paddings/margins/text */
 
 /*------------------------------------------heading */
 .logo {
-    background: url("../images/CapCreat.png");
+    background: url("../images/CapCreat.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
