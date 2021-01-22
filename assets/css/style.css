@@ -13,6 +13,10 @@ header {
     margin: 0;
 }
 
+.heading {
+    margin-left: 50px;
+}
+
 .logo {
     background: url("../images/CapCreat.jpg");
     background-position: center;
@@ -24,6 +28,23 @@ header {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     */
+}
+
+.title {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    margin-top: 35px;
+    color: #f8f8f8;
+}
+
+.page { 
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 15px;
+    color: #f8f8f8;
+}
 
     /*------------------------------------------hover.css */
 
