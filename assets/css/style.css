@@ -5,6 +5,34 @@
     background-color: #c5520f;
 }
 
+.ui-menu-color-home {
+    background-color: #8f8f8f;
+}
+
+.ui-menu-color-events {
+    background-color: #7f7f7f;
+}
+
+.ui-menu-color-gallery {
+    background-color: #8f8f8f;
+}
+
+.ui-menu-color-contact {
+    background-color: #7f7f7f;
+}
+
+.ui-menu-color-cosplay {
+    background-color: #8f8f8f;
+}
+
+.ui-menu-color-comics {
+    background-color: #7f7f7f;
+}
+
+.ui-menu-color-get-involved {
+    background-color: #ee9835;
+}
+
 /*------------------------------------------special paddings/margins/text */
 
 /*------------------------------------------heading */
@@ -32,7 +60,7 @@ header {
 
 .title {
     font-family: "Comfortaa", sans-serif;
-    font-weight: 200;
+    font-weight: 100;
     font-size: 40px;
     margin-top: 35px;
     color: #f8f8f8;
@@ -40,12 +68,56 @@ header {
 
 .page { 
     font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-size: 20px;
+    font-weight: 300;
+    font-size: 25px;
     margin-top: 15px;
+    margin-bottom: 20px;
     color: #f8f8f8;
 }
 
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 90px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #f8f8f8;
+    height: 90px;
+}
+
+.menuitem a i {
+    padding-top: 20px;
+    display: block;
+    color: #f8f8f8;
+    font-size: 20px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
     /*------------------------------------------hover.css */
 
     /*------------------------------------------footer */
