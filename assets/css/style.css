@@ -88,6 +88,10 @@ h1,h2,h3,h4 {
     color: #1a1a1a;
 }
 
+.section-first-icon {
+    line-height: 12px;
+    
+}
 
 .title-mention {
     font-family: "Comfortaa", sans-serif;
@@ -95,7 +99,7 @@ h1,h2,h3,h4 {
     color: #f8f8f8;
 }
 
-.icon {
+.icon-left {
     font-size: 16px;
     line-height: 7px;
     text-align: center;
@@ -105,9 +109,19 @@ h1,h2,h3,h4 {
     padding-right: 2px;
 }
 
-.icon:hover {
+.icon-left:hover {
     color: #7f7f7f;
     text-decoration: none;
+}
+
+.icon-body {
+    font-size: 16px;
+    line-height: 7px;
+    text-align: center;
+    color: #c62828 ;
+    text-decoration: none;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 .row-table {
@@ -119,6 +133,8 @@ h1,h2,h3,h4 {
     padding: 0 30px 30px;
     float: none;
 }
+
+
 
 /*------------------------------------------heading */
 
@@ -278,4 +294,100 @@ footer {
 
 #photo img{
     width: 100%;
+}
+
+    /*--------------------------------------------timelines/profiles*/
+
+.profile-item {
+    padding: 4em 3em 0em 2em;
+    position: relative;
+    color: #f8f8f8;
+    border-left: 2px solid;
+}
+
+.profile-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.profile-item:before {
+    content: attr(data-order);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 8px;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-item:after {
+    width: 8px;
+    height: 8px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 8px;
+    content: '';
+    background: #f8f8f8;
+}
+
+.profile-items {
+    margin-bottom: 30px;
+}
+
+.timeline-item {
+    padding: 4em 3em 0em 2em;
+    position: relative;
+    color: #1a1a1a;
+    border-left: 2px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 8px;
+    height: 8px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 8px;
+    content: '';
+    background: #1a1a1a;
+}
+
+.timeline-items {
+    margin-bottom: 10PX;
+}
+
+/*--------------------------------------------------profiles--*/
+
+.link {
+    text-decoration: none;
+    color: #f8f8f8 ;
+}
+
+.link:hover {
+    color: #7f7f7f;
+    text-decoration: none;
 }
