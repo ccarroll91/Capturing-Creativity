@@ -2,19 +2,19 @@
 
 /*------------------------------------------colours */
 .bg-color-cc-page {
-    background-color: #c5520f;
+    background-color: #f44336;
 }
 
 .ui-menu-color-home {
-    background-color: #8f8f8f;
+    background-color: #353535;
 }
 
 .ui-menu-color-events {
-    background-color: #7f7f7f;
+    background-color: #454545;
 }
 
 .ui-menu-color-gallery {
-    background-color: #8f8f8f;
+    background-color: #353535;
 }
 
 .ui-menu-color-contact {
@@ -22,15 +22,15 @@
 }
 
 .ui-menu-color-cosplay {
-    background-color: #8f8f8f;
+    background-color: #454545;
 }
 
-.ui-menu-color-comics {
-    background-color: #7f7f7f;
+.ui-menu-color-creators {
+    background-color: #353535;
 }
 
 .ui-menu-color-get-involved {
-    background-color: #ee9835;
+    background-color: #454545;
 }
 
 /*------------------------------------------special paddings/margins/text */
@@ -42,11 +42,12 @@ header {
 }
 
 .heading {
-    margin-left: 50px;
+    /*margin-left: 50px;*/
+    text-align: center;
 }
 
 .logo {
-    background: url("../images/CapCreat.jpg");
+    background: url("../images/logoneg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,7 +62,7 @@ header {
 .title {
     font-family: "Comfortaa", sans-serif;
     font-weight: 100;
-    font-size: 40px;
+    font-size: 48px;
     margin-top: 35px;
     color: #f8f8f8;
 }
@@ -69,9 +70,9 @@ header {
 .page { 
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 36px;
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     color: #f8f8f8;
 }
 
@@ -83,13 +84,17 @@ header {
     font-size: 0;
 }
 
+#nav {
+    margin: 0
+}
+
 #nav li {
     font-size: 14px;
     padding: 0;
 }
 
 .menuitem {
-    height: 90px;
+    height: 110px;
     text-align: center;
     padding: 0;
 }
@@ -98,7 +103,7 @@ header {
     width: 100%;
     text-decoration: none;
     color: #f8f8f8;
-    height: 90px;
+    height: 110px;
 }
 
 .menuitem a i {
@@ -119,5 +124,9 @@ header {
     letter-spacing: 2px;
 }
     /*------------------------------------------hover.css */
+
+    .hvr-sweep-to-bottom:before {
+    background-color: rgba(214, 33, 9, 0.5);
+    height: 110px;
 
     /*------------------------------------------footer */
