@@ -336,7 +336,7 @@ footer {
 }
 
 .profile-items {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .timeline-item {
@@ -380,6 +380,10 @@ footer {
     margin-bottom: 10PX;
 }
 
+.visibility {
+    visibility: hidden;
+}
+
 /*--------------------------------------------------profiles--*/
 
 .link {
@@ -391,3 +395,4 @@ footer {
     color: #7f7f7f;
     text-decoration: none;
 }
+
