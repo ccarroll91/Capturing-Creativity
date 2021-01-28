@@ -476,4 +476,76 @@ footer {
     text-decoration: none;
 }
 
+/*--------------------------------------------------------------------Get Involved*/
 
+.form-section {
+    clear: none;
+   
+    min-height: 900px;
+    width: 100%;
+}
+
+.signup-form {
+    margin: 0 auto;
+    margin-top: 70px;
+    color: #f8f8f8;
+    background-color: rgba(198,40,40,0.6);
+    max-width:70%;
+    position: absolute;
+    left: 33%;
+    padding: 30px;
+}
+
+
+
+.signup-form h2 {
+    color: #f8f8f8;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #f8f8f8;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    background: transparent;
+    color: #f8f8f8;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #c62828;
+    border-color: #c62828;
+    border-radius: 2px;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #c62828;
+    color: #f8f8f8;
+    display: block;
+}
+
+.join-button:hover {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f8f8f8;
+    color: #c62828;
+    display: block;
+}
+
+.form-control {
+    background: transparent;
+}
