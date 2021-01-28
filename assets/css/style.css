@@ -99,6 +99,16 @@ h1,h2,h3,h4 {
     color: #f8f8f8;
 }
 
+.icon-left-no-hover {
+    font-size: 16px;
+    line-height: 7px;
+    text-align: center;
+    color: #f8f8f8;
+    text-decoration: none;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
 .icon-left {
     font-size: 16px;
     line-height: 7px;
@@ -133,6 +143,28 @@ h1,h2,h3,h4 {
     padding: 0 30px 30px;
     float: none;
 }
+
+/*-------------------------------------------eventsimage*/
+
+#circle-container{
+    width: 300px;
+    height: 300px;
+    padding:0;
+    border-style: solid;
+    border-color: #c62828;
+    border-width: 1px;
+    border-radius: 50%;
+    margin:0 auto;
+    margin-bottom: 10px;
+}
+ 
+#circle-cover-bg{
+    background: url("../images/ConventionCentre.jpg") no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+}
+
+
 
 
 
@@ -340,7 +372,7 @@ footer {
 }
 
 .timeline-item {
-    padding: 4em 3em 0em 2em;
+    padding: 5em 3em 0em 2em;
     position: relative;
     color: #1a1a1a;
     border-left: 2px solid;
@@ -396,3 +428,14 @@ footer {
     text-decoration: none;
 }
 
+/*---------------------------------------------------links--*/
+
+.link-body {
+    text-decoration: none;
+    color: #1a1a1a ;
+}
+
+.link-body:hover {
+    color: #c62828;
+    text-decoration: none;
+}
