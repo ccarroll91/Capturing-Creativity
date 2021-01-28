@@ -326,13 +326,15 @@ footer {
 #photo {
     clear: both;
     line-height: 0;
-    column-count: 4;
+    column-count: 3;
     column-gap: 0px;
 }
 
 #photo img{
     width: 100%;
 }
+
+/*-------------------------------------------------images*/
 
 #circle-container-small{
     width: 260px;
