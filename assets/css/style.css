@@ -150,7 +150,7 @@ h1,h2,h3,h4 {
     float: none;
 }
 
-/*-------------------------------------------eventsimage*/
+/*----------------------------------------------------------------------------------eventsimage*/
 
 #circle-container{
     width: 300px;
@@ -332,6 +332,36 @@ footer {
 
 #photo img{
     width: 100%;
+}
+
+#circle-container-small{
+    width: 260px;
+    height: 260px;
+    padding:0;
+    border-style: solid;
+    border-color: #c62828;
+    border-width: 1px;
+    border-radius: 50%;
+    margin:0 auto;
+    margin-bottom: 10px;
+}
+
+#circle-cosplay1{
+    background: url("../images/cosplay1.jpg") no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+}
+
+#circle-cosplay2{
+    background: url("../images/cosplay2.jpg") no-repeat center center;
+    height:100%;
+    border-radius: 50%;
+}
+
+#circle-creators{
+    background: url("../images/creators1.jpg") no-repeat center center;
+    height:100%;
+    border-radius: 50%;
 }
 
     /*--------------------------------------------timelines/profiles*/
