@@ -79,6 +79,12 @@ h1,h2,h3,h4 {
     color: #f8f8f8;
 }
 
+.left-style-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #f8f8f8;
+}
+
 .section-heading-body {
     font-family: "Comfortaa", sans-serif;
     font-weight: 700;
@@ -416,7 +422,7 @@ footer {
     visibility: hidden;
 }
 
-/*--------------------------------------------------profiles--*/
+/*---------------------------------------------------links--*/
 
 .link {
     text-decoration: none;
@@ -428,8 +434,6 @@ footer {
     text-decoration: none;
 }
 
-/*---------------------------------------------------links--*/
-
 .link-body {
     text-decoration: none;
     color: #1a1a1a ;
@@ -439,3 +443,5 @@ footer {
     color: #c62828;
     text-decoration: none;
 }
+
+
