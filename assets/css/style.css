@@ -169,8 +169,28 @@ h1,h2,h3,h4 {
     height:100%;
     border-radius: 50%;
 }
+/*
+#index-bg {
+    background: url("../images/CCbg.jpg") no-repeat center center;
+    object-fit: cover ;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
 
-
+#index-bg-container{
+    min-width: 70%;
+    min-height: 10%;
+    height:30vw;
+    width: 45vw;
+    padding:0;
+    border-style: solid;
+    border-color: #c62828;
+    border-width: 1px;
+    border-radius: 5px;
+    margin:0 auto;
+    margin-bottom: 10px;
+}*/
 
 
 
@@ -336,7 +356,7 @@ footer {
     width: 100%;
 }
 
-/*-------------------------------------------------images*/
+/*------------------------------------------------------------------------------------------------images*/
 
 #circle-container-small{
     min-width: 200px;
@@ -371,6 +391,22 @@ footer {
 #circle-creators{
     background: url("../images/creators1.jpg") no-repeat center center;
     height:100%;
+    border-radius: 50%;
+}
+
+#circle-ccn1 {
+    background: url("../images/CNC1.JPG") no-repeat center center;
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#circle-ccn2 {
+    background: url("../images/CNC2.JPG") no-repeat center center;
+    height:100%;
+    width: 100%;
+    object-fit: cover;
     border-radius: 50%;
 }
 
