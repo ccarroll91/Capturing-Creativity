@@ -403,7 +403,7 @@ footer {
 }
 
 #circle-ccn2 {
-    background: url("../images/CNC2.JPG") no-repeat center center;
+    background: url("../images/CNC1.JPG") no-repeat center center;
     height:100%;
     width: 100%;
     object-fit: cover;
@@ -523,20 +523,17 @@ footer {
 /*--------------------------------------------------------------------Get Involved*/
 
 .form-section {
-    clear: none;
-   
+    clear: left;
     min-height: 900px;
-    width: 100%;
 }
 
 .signup-form {
-    margin: 0 auto;
     margin-top: 70px;
     color: #f8f8f8;
     background-color: rgba(198,40,40,0.6);
-    max-width:70%;
+    max-width:400px;
     position: absolute;
-    left: 33%;
+    left: 20%;
     padding: 30px;
 }
 
@@ -592,4 +589,43 @@ footer {
 
 .form-control {
     background: transparent;
+}
+
+
+
+/*-------------------------------------------------------media queries*/
+
+@media screen and (max-width: 992px) {
+            .form-section {
+    clear: left;
+    max-height: 700px;
+            }
+    .signup-form {
+    margin-top: 70px;
+    color: #f8f8f8;
+    background-color: rgba(198,40,40,0.6);
+    max-width:400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+            .form-section {
+    clear: left;
+    max-height: 400px;
+    width: 100%; 
+    }
+    .signup-form {
+    margin-top: 70px;
+    color: #f8f8f8;
+    background-color: rgba(198,40,40,0.6);
+    max-width:400px;
+    position: absolute;
+    left: -5%;
+    padding: 30px;
+}
+
 }
