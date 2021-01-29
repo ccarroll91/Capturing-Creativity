@@ -337,8 +337,10 @@ footer {
 /*-------------------------------------------------images*/
 
 #circle-container-small{
-    width: 260px;
-    height: 260px;
+    min-width: 200px;
+    min-height: 200px;
+    height: 20vw;
+    width: 20vw;
     padding:0;
     border-style: solid;
     border-color: #c62828;
@@ -351,12 +353,16 @@ footer {
 #circle-cosplay1{
     background: url("../images/cosplay1.jpg") no-repeat center center;
     height:100%;
+    width: 100%;
+    object-fit: cover;
     border-radius: 50%;
 }
 
 #circle-cosplay2{
     background: url("../images/cosplay2.jpg") no-repeat center center;
     height:100%;
+    width: 100%;
+    object-fit: cover;
     border-radius: 50%;
 }
 
