@@ -415,6 +415,43 @@ footer {
     border-radius: 50%;
 }
 
+#circle-ran1 {
+    background: url("../images/random1.jpg") no-repeat center center;
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#circle-ran2 {
+    background: url("../images/random2.jpg") no-repeat center center;
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#circle-ran3 {
+    background: url("../images/random3.jpg") no-repeat center center;
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#circle-ran4 {
+    background: url("../images/random4.jpg") no-repeat center center;
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#circle-ran5 {
+    background: url("../images/random5.jpg") no-repeat center center;
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
     /*--------------------------------------------timelines/profiles*/
 
 .profile-item {
