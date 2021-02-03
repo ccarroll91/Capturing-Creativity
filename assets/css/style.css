@@ -562,9 +562,9 @@ footer {
 /*--------------------------------------------------------------------Get Involved*/
 
 .form-section {
-    clear: left;
+    margin: 0 auto;
     min-height: 900px;
-    align-items: center;
+    max-width:70%
 }
 
 .signup-form {
