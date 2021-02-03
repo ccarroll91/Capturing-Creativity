@@ -1,3 +1,39 @@
+# Capturing Creativity
+
+This site was designed with the expresss purpose of promoting the Irish convention scene, the events 
+that take place throughout the year, and the people that make it so special. 
+
+The site (should it operate with more than dummy profiles) would serve to highlight and celebrate 
+cosplayers, bring attention to the small press (non-professional comic books) section of Ireland, 
+and alert people of all ages and interests about te major conventions taking place during the calender year. 
+
+---
+
+## Usage
+
+- The site was created using HTML5 and CSS using Github/Gitpod. 
+- Various Bootstrap 4 elements were used in the creation of this project. In order to use 
+these elements, this (https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css) code would 
+need to be installed in the head of your HTML document.
+
+## Website Preview
+
+##### Home
+![Home](assets/images/devicepreviews/homedevice.png)
+##### Events
+![Events](assets/images/devicepreviews/eventsdevice.png)
+##### Gallery
+![Gallery](assets/images/devicepreviews/gallerydevice.png)
+##### Cosplay
+![Cosplay](assets/images/devicepreviews/cosplaydevice.png)
+##### Creators
+![Creators](assets/images/devicepreviews/creatorsdevice.png)
+##### Get Involved
+![Get Involved](assets/images/devicepreviews/formdevice.png)
+##### Profiles
+![Get Involved](assets/images/devicepreviews/profiledevice.png)
+
+
 ## Design Choices
 
 ### Layout
@@ -197,6 +233,57 @@ This was remedied with a couple of steps.
     
 This would result in the background colours extending the full length of the page.
 
+---
+
+## Roadmap
+
+Future plans for this site include an expansion of the Creators aspect.
+
+1. A preview page for up and coming books would help highlight the work that is being done in the 
+background by some of the Creators. This would assist them in advertising their piece and hopefully get 
+it into more hands. This page would be a simple
+    
+    - Title
+    - Team
+    - Release date
+    - Blurb
+    - Cover/promotional art
+
+Similarily,
+
+2. A comic book review page. This page would make the overall project feel like it had more integrity, 
+and would allow its members a chance to shine and grow. This review page would offer Creators a chance 
+to tell thier customers an unbiased opinion about their book.
+
+    - The layout of these review pages would include the information seen in a preview, a progress bar 
+chart (Art, Writing, Colours, Lettering, Overall), and a couple of paragraphs about the comic from a 
+technical standpoint.
+
+3. The form on the Get Involved page would have a destination. Currently the form does nothing.
+
+---
+
+## Contributing
+
+Currently the page is not looking for further contribution, however, should that change in the future 
+one would be required to follow certain steps when creating new material for the site.
+
+- Index - No changes required
+- Events - From the events page, one should copy the existing code listed events, and insert new 
+events into the calender starting at January to at most 18 months ahead (this is to ensure that events 
+early on in the calender year are not ignored or missed).
+The *next event* should also be updated regularly, requiring a new Google Map link and About.
+- Gallery - The Gallery page is open to the discretion of the site photographers, but each image 
+should be at most 3000px (w/h) and should be run through https://tinypng.com/ to reduce the size 
+of the image.
+- Cosplay / Creators - The two locations share near identical code. A futureproofed line of code 
+has been prewritten for both pages, and commented out. This code will change the current layout from an 
+Aa-Zz list to an A - H | I - P | Q - Z (built using bootsrap) table menu. In the event that this code has to be 
+implemented (growth) all profiles would need to be moved to the correct page alphabetically. Profile pages should 
+always display the A - H section. This measure is to ensure the workload for creating a new profile does not 
+become tedious.
+- Get Involved - A destination for the form is required.
+
 
 ## Code Attribution
 
@@ -205,9 +292,20 @@ Mini-Project for rough rule of thirds. (Matt Rudge)
 
 Changes were made to style and menus thereafter.
 
----
-
 Circle layout responsive code sourced from this Stack Overflow page: 
 [Stack Overflow](https://stackoverflow.com/questions/41570348/responsive-circle-and-image-fit-on-circle)
 
 
+## Author
+
+Conor Carroll
+
+## Acknowledgements
+
+- Code institute lecturers
+- Bootstrap
+- Font Awesome
+- https://tinypng.com/
+- https://material.io/
+- http://techsini.com/multi-mockup
+- https://webformatter.com/html
