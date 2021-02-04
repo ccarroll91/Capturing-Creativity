@@ -101,6 +101,9 @@ A switch back to the original plan, coupled with a dark grey for the seconday co
 provided that opacity levels were not tampered with.
 [Material.io](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=c5520f)
 
+A Lighthouse test in the Chrome Developer tools highlighted a potential visibility issue with #c5520f.
+A switch to #a64100 has been implemented.
+
 ## Issues
 
 ### Icons - Font Awesome
