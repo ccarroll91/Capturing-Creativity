@@ -296,6 +296,12 @@ Circle layout responsive code sourced from this Stack Overflow page:
 [Stack Overflow](https://stackoverflow.com/questions/41570348/responsive-circle-and-image-fit-on-circle)
 
 
+## Image Attribution
+
+The images marked as "random 1-5 .jpg" were all sourced from a random face generator [https://thispersondoesnotexist.com/]
+
+All other images were taken by/belong to the author of the site.
+
 ## Author
 
 Conor Carroll
