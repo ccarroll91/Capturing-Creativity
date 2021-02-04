@@ -104,7 +104,9 @@ provided that opacity levels were not tampered with.
 A Lighthouse test in the Chrome Developer tools highlighted a potential visibility issue with #c5520f.
 A switch to #a64100 has been implemented.
 
-## Issues
+[Material.io](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=a54100&secondary.color=757575)
+
+## Issues / Testing
 
 ### Icons - Font Awesome
 
@@ -231,7 +233,7 @@ This was remedied with a couple of steps.
             display: table-cell;
             padding: 0 30px 30px;
             float: none;
-            height: 100vh;
+            height: calc(100vh-539px);
             }
     
 This would result in the background colours extending the full length of the page.
@@ -305,9 +307,7 @@ The images marked as "random 1-5 .jpg" were all sourced from a random face gener
 
 All other images were taken by/belong to the author of the site.
 
-## Author
 
-Conor Carroll
 
 ## Acknowledgements
 
@@ -318,3 +318,16 @@ Conor Carroll
 - https://material.io/
 - http://techsini.com/multi-mockup
 - https://webformatter.com/html
+
+## Lighthouse Reports
+
+
+Mobile Report
+![LighthouseMobile](assets/images/LHMobile.png)
+
+Desktop Report
+![LighthouseMobile](assets/images/LHDesktop.png)
+
+## Author
+
+Conor Carroll
