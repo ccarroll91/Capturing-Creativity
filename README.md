@@ -9,30 +9,13 @@ and alert people of all ages and interests about te major conventions taking pla
 
 ---
 
-## Usage
-
-- The site was created using HTML5 and CSS using Github/Gitpod. 
-- Various Bootstrap 4 elements were used in the creation of this project. In order to use 
-these elements, this (https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css) code would 
-need to be installed in the head of your HTML document.
 
 ## Website Preview
 
 ##### Home
 ![Home](assets/images/devicepreviews/homedevice.png)
-##### Events
-![Events](assets/images/devicepreviews/eventsdevice.png)
-##### Gallery
-![Gallery](assets/images/devicepreviews/gallerydevice.png)
-##### Cosplay
-![Cosplay](assets/images/devicepreviews/cosplaydevice.png)
-##### Creators
-![Creators](assets/images/devicepreviews/creatorsdevice.png)
-##### Get Involved
-![Get Involved](assets/images/devicepreviews/formdevice.png)
-##### Profiles
-![Get Involved](assets/images/devicepreviews/profiledevice.png)
 
+---
 
 ## Design Choices
 
@@ -106,11 +89,12 @@ A switch to #a64100 has been implemented.
 
 [Material.io](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=a54100&secondary.color=757575)
 
+---
+
 ## Issues / Testing
 
 ### Icons - Font Awesome
 
----
 
 Initial coding issues with FA icons was a syntax error. While the 
 code on the site for importing was listed as below, 
@@ -126,8 +110,6 @@ fix was made:
 ---
 
 ### Logo Placement
-
----
 
 My initial logo placement was done inside of a <i>div</i> element, as below.
 
@@ -289,6 +271,7 @@ always display the A - H section. This measure is to ensure the workload for cre
 become tedious.
 - Get Involved - A destination for the form is required.
 
+---
 
 ## Code Attribution
 
@@ -300,6 +283,7 @@ Changes were made to style and menus thereafter.
 Circle layout responsive code sourced from this Stack Overflow page: 
 [Stack Overflow](https://stackoverflow.com/questions/41570348/responsive-circle-and-image-fit-on-circle)
 
+---
 
 ## Image Attribution
 
@@ -307,7 +291,47 @@ The images marked as "random 1-5 .jpg" were all sourced from a random face gener
 
 All other images were taken by/belong to the author of the site.
 
+---
 
+## Technology Used
+
+1. HTML
+2. CSS  
+3. Bootstrap V4 (https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css)
+4. Gitpod / Github
+5. Google Chrome Developer Tools
+
+---
+
+## Deployment
+
+Steps used to create this site:
+
+1. The index page was created, and styled.
+2. The Header and Footer were reproduced across the site's various tabs.
+3. Basic content was added to pages, including images.
+4. The gallery wall was created.
+5. The timeline objects were created using a "border-left" function
+6. The form page was created, using Bootstrap form functions.
+7. Various debugging measures were taken, using Google Chrome Developer tools.
+
+
+This page is deployed using Github pages.
+
+- The branch used is the *master* branch
+- The folder used is *root*
+
+In order to clone this repository:
+
+1. Head over to https://github.com/ccarroll91/Capturing-Creativity
+2. Find the **Code** button and click the down arrow
+3. Usung the clipboard, you can "Clone with HTTPS"
+4. Open Git Bash
+5. Change your directory
+6. git clone and *paste* the url
+7. Press ENTER. The clone has been made.
+
+---
 
 ## Acknowledgements
 
@@ -319,6 +343,8 @@ All other images were taken by/belong to the author of the site.
 - http://techsini.com/multi-mockup
 - https://webformatter.com/html
 
+---
+
 ## Lighthouse Reports
 
 
@@ -327,6 +353,8 @@ Mobile Report
 
 Desktop Report
 ![LighthouseMobile](assets/images/LHDesktop.png)
+
+---
 
 ## Author
 

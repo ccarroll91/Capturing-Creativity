@@ -142,6 +142,7 @@ h4 {
     text-decoration: none;
     padding-left: 2px;
     padding-right: 2px;
+    margin-bottom: 2px;
 }
 
 .icon-left {
@@ -152,10 +153,11 @@ h4 {
     text-decoration: none;
     padding-left: 2px;
     padding-right: 2px;
+    margin-bottom: 2px;
 }
 
 .icon-left:hover {
-    color: #7f7f7f;
+    color: #b9b9b9;
     text-decoration: none;
 }
 
@@ -178,28 +180,24 @@ h4 {
     display: table-cell;
     padding: 0 30px 30px;
     float: none;
-    height: calc(100vh-539px);
+    height: calc(100vh - 539px);
 }
 
-/*----------------------------------------------------------------------------------eventsimage*/
+/*----------------------------------------------------------------------------------image*/
 
-#circle-container {
-    width: 300px;
-    height: 300px;
+img{
+    width: 250px;
+    height: 250px;
     padding: 0;
     border-style: solid;
     border-color: #a64100;
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-#circle-cover-bg {
-    background: url("../images/ConventionCentre.jpg") no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
+
 
 /*------------------------------------------heading */
 
@@ -297,7 +295,7 @@ footer {
     color: #f8f8f8;
     min-height: 120px;
     margin: 0;
-    text-align: justify;
+    text-align: left;
 }
 
 .get-involved-hand i {
@@ -342,7 +340,6 @@ footer {
 
 #footer-details {
     padding: 16px;
-    text-align: center;
 }
 
 /*------------------------------------------gallery*/
@@ -358,95 +355,6 @@ footer {
     width: 100%;
 }
 
-/*------------------------------------------------------------------------------------------------images*/
-
-#circle-container-small {
-    min-width: 200px;
-    min-height: 200px;
-    height: 20vw;
-    width: 20vw;
-    padding: 0;
-    border-style: solid;
-    border-color: #a64100;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-    margin-bottom: 10px;
-}
-
-#circle-cosplay1 {
-    background: url("../images/cosplay1.jpg") no-repeat center center;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-#circle-cosplay2 {
-    background: url("../images/cosplay2.jpg") no-repeat center center;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-#circle-creators {
-    background: url("../images/creators1.jpg") no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
-
-#circle-ccn1 {
-    background: url("../images/CNC1.JPG") no-repeat center center;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-#circle-ccn2 {
-    background: url("../images/CNC2.JPG") no-repeat center center;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-#circle-ran1 {
-    background: url("../images/random1.jpg") no-repeat center center;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-}
-#circle-ran2 {
-    background: url("../images/random2.jpg") no-repeat center center;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-}
-#circle-ran3 {
-    background: url("../images/random3.jpg") no-repeat center center;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-}
-#circle-ran4 {
-    background: url("../images/random4.jpg") no-repeat center center;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-}
-#circle-ran5 {
-    background: url("../images/random5.jpg") no-repeat center center;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-}
 
 /*--------------------------------------------timelines/profiles*/
 
@@ -571,7 +479,6 @@ footer {
     margin-top: 70px;
     color: #1a1a1a;
     max-width: 400px;
-    position: absolute;
     padding: 30px;
     text-align: center;
     align-items: center;
