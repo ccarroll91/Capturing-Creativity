@@ -478,7 +478,7 @@ footer {
 .signup-form {
     margin-top: 70px;
     color: #1a1a1a;
-    max-width: 400px;
+    max-width: 900px;
     padding: 30px;
     text-align: center;
     align-items: center;
@@ -530,6 +530,17 @@ footer {
         column-count: 2;
         column-gap: 0px;
     }
+    .circle-img{
+        width: 200px;
+        height: 200px;
+        padding: 0;
+        border-style: solid;
+        border-color: #a64100;
+        border-width: 1px;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -561,4 +572,6 @@ footer {
         background-size: cover;
         min-height: 240px;
     }
+    
 }
+
