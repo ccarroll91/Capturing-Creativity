@@ -180,12 +180,24 @@ h4 {
     display: table-cell;
     padding: 0 30px 30px;
     float: none;
-    height: calc(100vh - 539px);
+    min-height: calc(100vh - 539px);
+}
+/*------------------------------------------gallery*/
+
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0px;
+}
+
+#photo img {
+    width: 100%;
 }
 
 /*----------------------------------------------------------------------------------image*/
 
-img{
+.circle-img{
     width: 250px;
     height: 250px;
     padding: 0;
@@ -342,18 +354,6 @@ footer {
     padding: 16px;
 }
 
-/*------------------------------------------gallery*/
-
-#photo {
-    clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 0px;
-}
-
-#photo img {
-    width: 100%;
-}
 
 
 /*--------------------------------------------timelines/profiles*/
