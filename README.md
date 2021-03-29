@@ -17,118 +17,292 @@ and alert people of all ages and interests about te major conventions taking pla
 
 ---
 
-## Design Choices
+## Table of contents
 
-### Layout
+1. [**UX**](#ux)
+    - [**Scope**](#scope)
+    - [**Structure**](#structure)
+    - [**Skeleton**](#skeleton)
+    - [**Surface**](#surface)
+    
+2. [**Features**](#features)
+    - [**Existing features**](#existing-features)
+    - [**Features left to implement**](#features-left-to-implement)
 
-The layout for this site was inspired by the rough rule of thirds display option.
-Breaking the page into this format allows for easier navigation and better UX, 
-especially given the potential number of pages. The need to be able to jump between
-hosted profiles while not taking away from the overall look of the site was easily
-acheived by using this layout. 
+3. [**Technologies Used**](#technologies-used)
 
-#### Layout - Wireframes
+4. [**Testing**](#testing)
 
-##### Home
-![Home](assets/images/wireframes/Home.png)
-![Home iPad](assets/images/wireframes/HomeiPad.png)
-![Home iPhone](assets/images/wireframes/HomeiPhone.png)
+5. [**Deployment**](#deployment)
 
-##### Events
-![Events](assets/images/wireframes/Events_1.png)
-![Events iPad](assets/images/wireframes/EventsiPad.png)
-![Events iPhone](assets/images/wireframes/EventsiPhone.png)
+6. [**Credits**](#credits)
+    - [**Content**](#content)
+    - [**Resources**](#resources)
+    - [**Media**](#media)
+    - [**Acknowledgements**](#acknowledgements)
 
-##### Gallery
-![Gallery](assets/images/wireframes/Gallery_1.png)
-![Gallery iPad](assets/images/wireframes/GalleryiPad.png)
-![Gallery iPhone](assets/images/wireframes/GalleryiPhone.png)
 
-##### Cosplay
-![Cosplay](assets/images/wireframes/Cosplay_1.png)
-![Cosplay iPad](assets/images/wireframes/CosplayiPad.png)
-![Cosplay iPhone](assets/images/wireframes/CosplayiPhone.png)
 
-##### Cosplay Profile
-![Cosplayer Profile](assets/images/wireframes/CosplayProfile.png)
-![Cosplayer Profile iPad](assets/images/wireframes/CosplayProfileiPad.png)
-![Cosplayer Profile iPhone](assets/images/wireframes/CosplayProfileiPhone.png)
+## UX
 
-##### Comics
-Later renamed "Creators"
-![Comics](assets/images/wireframes/Comics.png)
-![Comics iPad](assets/images/wireframes/ComicsiPad.png)
-![Comics iPhone](assets/images/wireframes/ComicsiPhone.png)
+### Scope
 
-##### Creators Profile
-![Creator Profile](assets/images/wireframes/CreatorProfile.png)
-![Creator Profile iPad](assets/images/wireframes/CreatorProfileiPad.png)
-![Creator Profile iPhone](assets/images/wireframes/CreatorProfileiPhone.png)
+The site is made to be a resource for cosplayers, creators, and anyone intested in connecting with people from these scopes of life.
 
-##### Get Involved
-![Get Involved](assets/images/wireframes/GetInvolved.png)
-![Get Involved iPad](assets/images/wireframes/GetInvolved.png)
-![Get Involved iPhone](assets/images/wireframes/GetInvolved.png)
+#### User stories
 
-#### Colours
+##### Visitor goals
 
-As can be seen in the wireframes, the first colour pallet used an orange.
-The accessibility based off similar colours on the wireframes were not promising.
-[Material.io](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=c66625)
+1. As a visitor to the site, I want to learn more about why people cosplay or create comics.
+2. As a visitor to the site, I want to discover when and where conventions are going to take place, if they're still going ahead and how to find tickets.
+3. As a visitor to the site, I want to be able to contact the site in order to get involved.
+4. As a visitor to the site, I want to look at an array of images from Irish conventions.
 
-This was switched to a red during building, which despite strong accessibility was not 
-in the original plan.
-[Material.io](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=c62828)
+##### Owner goals
 
-A switch back to the original plan, coupled with a dark grey for the seconday colour, would work
-provided that opacity levels were not tampered with.
-[Material.io](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=c5520f)
+5. As the owner of the site, I want to share the profiles and work of the people of and in Ireland.
+6. As the owner of the site, I want to promote the events taking place in Ireland.
+7. As the owner of the site, I want to encourage people to get involved in the geekier side of society.
 
-A Lighthouse test in the Chrome Developer tools highlighted a potential visibility issue with #c5520f.
-A switch to #a64100 has been implemented.
+### Structure
 
-[Material.io](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=a54100&secondary.color=757575)
+The site has been put together using HTML, and CSS.
+Bootstrap was installed and used where necessary, such as in implementing the column system for design. 
+Navigation through the site can be easily done using the nav-bar in the header.
+
+### Skeleton
+
+Section 1 - Home page - Header with title and navigation on top. 
+"Who are we?", "What do we do?", and "Why do we do it?" columns.
+Footer- About, link to contact page, and social links.
+
+Section 2 - Events - Identical Header and Footer
+About column, an event timeline, and "Next Convention"
+
+Section 3 - Gallery - Identical Header and Footer
+A gallery wall of images from conventions
+
+Section 4 - Cosplay - Identical Header and Footer
+A list of profiles, "what is cosplay?", "Why cosplay?"
+Section 4.1 - Cosplay profiles - List of profiles, a profile
+
+Section 5 - Creators - Identical Header and Footer
+A list of profiles, "What do they create?", "Who makes a comic?", a description of the various roles involved in making a comic
+Section 5.1 - Cosplay profiles - List of profiles, a profile
+
+Section 6 - Get Involved / Contact page - With the same header and footer, the page is filled with a contact form, requiring the user input their name, email and 
+message to the team, before clicking on a styled "submit" button.
+
+**Wireframe**
+
+The initial wireframe
+
+![Wireframes](assets/images/wf.png)
+
+### Surface
+
+**Colours**
+
+Colours used on the site are (without titles):
+
+- #4f1410 : A dark red used on the header and some smaller elements
+
+A variety of greys were used for the menu tabs:
+- #353535
+- #454545
+- #7f7f7f
+
+
+**Icons** used are from fontawesome.com. They are seen on the fullscreen button and the submit button.
+
+**Images** used were all taken by by the author of the site, Conor Carroll. They are in png format, and have been condensed. 
+
+**Fonts** :
+
+- **Comfortaa** was used for the header, subheading and title mentions.
+- **Roboto** was used for all other areas
+
+##### back to [contents](#table-of-contents)
 
 ---
 
-## Issues / Testing
+## Features
 
-### Icons - Font Awesome
+The site is built up of 6 main pages, and 2 sub style pages
+
+### Existing Features
+
+- Navigation through a style nav-bar
+- Profiles for generated individuals to simulate the site in full effect
+- Clickable links through icons (Spock hand)
+- Link to Google map location of "next convention"
 
 
-Initial coding issues with FA icons was a syntax error. While the 
-code on the site for importing was listed as below, 
+### Features to Implement
 
-<i class=" fas fa-home" aria-hidden="true"></i>
+- Javascript implementation on the contact form
+- Filling up the profiles in order to use the secondary navigation
+- An endless scroll on the gallery, including a lazy load, as the page grows in size  
 
-While this is looks like the correct code, having been sourced directly from FA, 
-the formatting was incorrect, and the icons did not appear. Instead, this simple
-fix was made:
+ ##### back to [contents](#table-of-contents)
 
-<i class=" fa fa-home" aria-hidden="true"></i>
+ ---
+
+## Technologies Used
+
+- Languages : HTML, CSS, Bootstrap.
+
+- IDE: [Gitpod](https://www.gitpod.io/)
+
+- Version control: Git on [Gitpod](https://www.gitpod.io/) and [Github](https://github.com/).
+
+- Wireframe: [Balsamiq](https://balsamiq.com/)
+
+- Browser developer tools: Google Chrome
+
+- Fonts : [Google Fonts](https://fonts.google.com/)
+
+- Icons : [Fontawesome](https://fontawesome.com/)
+
+- Images : Canon EOS 2000D
+
+- Image editing : [tinypng](https://tinypng.com/) compression tool.
+
+- Colour tool : https://material.io/resources/color
+
+##### back to [contents](#table-of-contents)  
 
 ---
+## Testing
 
-### Logo Placement
+Testing was carried out throughout the build process of the site.
 
-My initial logo placement was done inside of a <i>div</i> element, as below.
+### Lighthouse - Google Chrome Developer Tools
 
-           header class="row no-gutters"
-		        div class="col-md-4 logo" href="index.html"
-		            div class="col-md-8"
-		                div class="row no-gutters bg-color-cc-page"
-		                    div class="col heading"
+- [lighthouse](https://developers.google.com/web/tools/lighthouse) report in Chrome devtools and on command line.
 
-This was rectified, with the logo placed in an anchor to be a constant link 
-to the Home page.
+![Chrome Lighthouse Mobile - Incognito mode](assets/images/lh1.png)
 
-            header
-                div class="row no-gutters"
-                    a class="col-md-4 logo" href="index.html"
-                       /a
-                        div class="col-md-8"
-                            div class="row no-gutters bg-color-cc-page"
-                                div class="col heading"
+![Chrome Lighthouse Desktop - Incognito mode](assets/images/lh2.png)
+
+
+### Bugs encountered
+
+1. The body initially did not fill the screen, leaving the footer to rise up the page. This was 
+resolved using the calc(100vh - #) line of code.
+2. Images were not scaling initially, with the page. A smaller image size was used, to avoid any issues on smaller screens.
+3. Page length was an issue on the Cosplay and Creators pages. A new navigation system was set up, and coded out in the initial page. It is 
+there to be used and implemented in the event that the page grows sufficiently to require it. 
+
+### Known issues
+
+1. The social media links, while existent, have failed to navigate in previous testing.
+2. The contact form does not do anything, and is for show, currently.
+3. There is a medium performnce score on the page, due to the logo and navigation creating a longer page.
+
+### Version control
+
+The site has been committed throughout and previous versions can be viewed on the GitHub [page](https://github.com/ccarroll91/Capturing-Creativity).
+
+### Functionality testing
+
+- Navbar: Links between all pages work successfully
+
+- The link to the social media page works
+
+- Clicking the Google maps link directs to the location on the map
+
+- Clicking the link in the event page at "here" will bring the user to the site of the convention
+
+
+## User stories
+
+##### Visitor goals
+
+1. As a visitor to the site, I want to learn more about why people cosplay or create comics.
+- There is information on the site that tells me about cosplay, and on comic creation, including the various roles involved.
+
+2. As a visitor to the site, I want to discover when and where conventions are going to take place, if they're still going ahead and how to find tickets.
+- The information available on the site tells me when and where the next conventions are, and if they are still going ahead.
+
+3. As a visitor to the site, I want to be able to contact the site in order to get involved.
+- There is a contact page, but it does not appear to work.
+
+4. As a visitor to the site, I want to look at an array of images from Irish conventions.
+- There is a dedicated gallery page.
+
+
+##### Owner goals
+
+5. As the owner of the site, I want to share the profiles and work of the people of and in Ireland.
+- There are a variety of imitation profiles on the site that would be replaced with real people should the project go live.
+
+6. As the owner of the site, I want to promote the events taking place in Ireland.
+- Events due to take place in the calender year are highlighted, with the next event given a lot of detail.
+
+7. As the owner of the site, I want to encourage people to get involved in the geekier side of society.
+- I have shown the uniqueness of the Irish convention scene, and a variety of images, and have established a contact form with a call to action (although this is yet to be implemented).
+
+
+##### back to [contents](#table-of-contents)
+
+---
+## Deployment
+
+The site was deployed on Github with the use of a use of a Github account, and built 
+usig Gitpod.
+ For instructions on how to:
+ 1. Clone:
+ - On GitHub, navigate to the main page of the repository.
+ - Above the list of files, click  the "down-arrow" and Code button, in green.
+ - To clone the repository using HTTPS, under "Clone with HTTPS", click the clipboard icon. 
+ To clone a repository using GitHub CLI, click Use GitHub CLI, then click the clipboard icon.
+ - Open Git Bash.
+ - Change the current working directory to the location where you want the cloned directory.
+ - Type git clone, and then paste the URL you copied earlier.
+ - $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+ - Press Enter to create your local clone.
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `Spoon-Knife`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+
+ 2. Fork:
+ - On GitHub, navigate to the Capturing Creativity repository.
+ - In the top-right corner of the page, click Fork.
+ 
+ ##### back to [contents](#table-of-contents)  
+
+---
+## Credits
+
+### Content
+
+Profile content came from a request from two cosplayers and a creator, based on information provided in November 2019 for the Instagram page "Capturing Creativity".
+
+### Resources
+
+- [Bootstrap components](https://getbootstrap.com/)
+- [W3schools](https://www.w3schools.com/)
+- [Code institute's Slack workspace channels](https://slack.com)
+
+### Media 
+
+- Images were taken by Conor Carroll, the author of this site
+
+ ##### back to [contents](#table-of-contents)  
+
+
+
+
+
+
+
+
+
 
 ### Profiles and page length - Cosplay and Creators
 
